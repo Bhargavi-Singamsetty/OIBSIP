@@ -1,0 +1,164 @@
+<html>
+    <head>
+        <title>Self Test</title>
+        <script type="module" src="app.js"></script>
+        
+    </head>
+    <style>
+      ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:cornflowerblue;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display:  block;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color:aquamarine;
+}
+        body{
+            background-image: url("https://previews.123rf.com/images/ismagilov/ismagilov1501/ismagilov150101150/35428641-black-flying-question-marks-symbol-3d-render.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+            background-size: 100% 100%;
+        }
+        .myDiv {
+  background-color:#D3D3D3;
+  text-align: center;
+  width:650px;
+  height:1200px;
+  margin:auto;
+}
+select{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+
+}
+.button {
+  border: none;
+  color:darkgray;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 70px 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  float:right;
+}
+.button1 {
+  background-color: white; 
+  color: black; 
+}
+
+.button1:hover {
+  background-color:black;
+  color: white;
+}
+    </style>
+    <body>
+      <ul >
+        <li><a href="csp.html">Home</a></li>
+        <li><a href="stress.html">Stress</a></li>
+        <li><a href="typeofstr.html">StressTypes</a></li>
+        <li><a href="selftest.html">Self Test</a></li>
+      </ul>
+      
+          <div class="myDiv">
+            <p style="font-size: 30px;padding-top:20px;">1.How often are you able to stay focused on the present moment?</p>
+              <form>
+                <div>
+            <label  for="one" class="form-label"></label>
+              <select id="one"   name="_one" class="form-select">  
+                <option value="" selected disabled hidden>Choose here</option>
+                <option >5 to 6 hours</option>
+                <option >3 to 4 hours</option>
+                <option >2 hours</option>
+                <option >less than 2 hours</option>
+            </select>  
+                </div>
+            <p style="font-size: 30px;padding-top:20px;">2.Do you fall asleep easily at night?</p>
+            <div>
+                <label  for="two"  class="form-label">
+                  </label>
+                  <select id="two"  name="_two" class="form-select">  
+                    <option value="" selected disabled hidden>Choose here</option>
+                    <option >less than 1 hour</option>
+                    <option>within 7-8 min</option>
+                    <option >less than 20 min</option>
+                    <option >more than 1 hour</option>
+                </select>  
+            </div>
+                
+                <p style="font-size: 30px;padding-top:20px;">3. Have you ever experienced a sudden change in your mood?</p>
+                <div >
+                <label  for="three"  class="form-label">
+                  </label>
+                  <select id="three"  name="_three"  class="form-select">  
+                    <option value="" selected disabled hidden>Choose here</option>
+                    <option >Very often</option>
+                    <option >Less</option>
+                    <option >Never</option>
+                    <option >Sometimes</option>
+                </select>  
+                </div>
+               
+                <p style="font-size: 30px;padding-top:20px;">4. Do you feel irritable, annoyed, or angry over trivial issues?</p>
+                <div >
+                <label  for="four"  class="form-label">
+                  </label>
+                  <select id="four" name="_four" class="form-select" >  
+                    <option value="" selected disabled hidden>Choose here</option>
+                    <option >Very often</option>
+                    <option >Less</option>
+                    <option >Never</option>
+                    <option >Sometimes</option>
+                </select>  
+                </div>
+                <p style="font-size: 30px;padding-top:20px;">5.What are some common causes of stress in your life?</p>
+                <div >
+                <label  for="five"  class="form-label">
+                  </label>
+                  <select id="five"  name="_five" class="form-select">  
+                    <option value="" selected disabled hidden>Choose here</option>
+                    <option >Financial problems</option>
+                    <option >Personal problems</option>
+                    <option >Work Load</option>
+                    <option >Death of a close family member</option>
+                </select>  
+                </div>
+                <div >
+                <button class="button button1" name="save_select" type="submit" id="insert"><a href="selftest2.html">Next Page >></a></button> 
+                </div>
+              </form>
+        </div>
+     
+
+       
+      
+    </body>
+</html>

@@ -1,0 +1,161 @@
+<html>
+    <head>
+        <title>Self Test</title>
+    </head>
+    <style>
+      ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:cornflowerblue;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display:  block;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color:aquamarine;
+}
+        body{
+            background-image: url("https://previews.123rf.com/images/ismagilov/ismagilov1501/ismagilov150101150/35428641-black-flying-question-marks-symbol-3d-render.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+            background-size: 100% 100%;
+        }
+        .myDiv {
+  background-color:#D3D3D3;
+  text-align: center;
+  width:650px;
+  height:1200px;
+  margin:auto;
+}
+select{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+
+}
+.button {
+  border: none;
+  color:darkgray;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 70px 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  float: right;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+}
+
+.button1:hover {
+  background-color:black;
+  color: white;
+}
+</style>
+    <body>
+      <ul >
+        <li><a href="csp.html">Home</a></li>
+        <li><a href="stress.html">Stress</a></li>
+        <li><a href="typeofstr.html">StressTypes</a></li>
+        <li><a href="selftest.html">Self Test</a></li>
+      </ul>
+          <div class="myDiv">
+            <p style="font-size: 30px;padding-top:20px;">6. Do you feel pain or tension in your stomach, muscles, chest, or head?</p>
+           
+              <form action="connect.php" method="post">
+            <label  for="6" >
+              </label>
+              <select id="6">  
+                <option value="" selected disabled hidden>Choose here</option>
+                <option value="6">Severe</option>
+                <option value="6">Less</option>
+                <option value="6">Never</option>
+                <option value="6">Sometimes</option>
+            </select>  
+          
+            <p style="font-size: 30px;padding-top:20px;">7. Are you suffering from long time stress or short time stress</p>
+            
+                <label  for="7">
+                  </label>
+                  <select id="7" >  
+                    <option value="" selected disabled hidden>Choose here</option>
+                    <option value="7">Long term</option>
+                    <option value="7">Neither</option>
+                    <option value="7">Short term</option>
+                    <option value="7">Nothing</option>
+                </select>  
+                
+                <p style="font-size: 30px;padding-top:20px;">8. What are the side effects of stress you observed? </p>
+          
+                <label  for="8">
+                  </label>
+                  <select id="8" >  
+                    <option value="" selected disabled hidden>Choose here</option>
+                    <option value="8">Muscle aches and headaches</option>
+                    <option value="8">Sleep problems</option>
+                    <option value="8">Irritability and anger</option>
+                    <option value="8">Depression and anxiety</option>
+                </select>  
+                
+                <p style="font-size: 30px;padding-top:20px;">9. Do you feel like withdrawing from family, friends, and isolating yourself?</p>
+            
+                <label  for="9">
+                  </label>
+                  <select id="9" >  
+                    <option value="" selected disabled hidden>Choose here</option>
+                    <option value="9">Very often</option>
+                    <option value="9">Less</option>
+                    <option value="9">Never</option>
+                    <option value="9">Sometimes</option>
+                </select>  
+                <p style="font-size: 30px;padding-top:20px;">10. How can you identify that you are in stressed condition?</p>
+            
+                <label  for="0">
+                  </label>
+                  <select id="0" >  
+                    <option value="" selected disabled hidden>Choose here</option>
+                    <option value="0">Aches and pains</option>
+                    <option value="0">Exhaustion or trouble sleeping</option>
+                    <option value="0">Anxiety or irritability</option>
+                    <option value="0">Depression</option>
+                </select>  
+              </form>
+                <div style="background-color:#D3D3D3;
+                text-align: center;
+                width:650px;
+                height:100px;
+                margin:auto;">
+                  <button class="button button1">Submit</button> 
+                <button class="button button1"><a href="selftest.html"><< Back</button>
+                 
+            </div>
+        </div>
+    </body>
+</html>
